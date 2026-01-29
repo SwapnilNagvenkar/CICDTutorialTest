@@ -2,7 +2,7 @@ name: Pro-Tier CI-CD
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
