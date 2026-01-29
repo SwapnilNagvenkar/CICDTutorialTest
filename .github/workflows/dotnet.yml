@@ -17,7 +17,7 @@ jobs:
           
       - name: Build & Publish
         # We use the project name here to be precise
-        run: dotnet publish CICDTutorialTest.csproj -c Release -o ./myapp
+        run: dotnet publish CICDTutorialTest/CICDTutorialTest.csproj -c Release -o ./myapp
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
